@@ -8,6 +8,6 @@ public class Greet {
 
     @GetMapping("/greet")
     public String greet(){
-        return "Hello user how are you";
+        return "Hello user how are you ?";
     }
 }
